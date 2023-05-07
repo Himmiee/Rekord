@@ -1,0 +1,90 @@
+#record{
+    background-image: url('../../images/nikon-camera-desert-abstract-modern-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    height: 115vh;
+}
+.dv{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+#record h1{
+    color: white;
+    padding: 15px;
+    margin: 0px;
+    padding-top: 5%;
+    font-size: 40px;
+}
+.record-btn {
+    display: block;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.record-btn:hover {
+    display: block;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+h4{
+    color: wheat;
+    font-size: 15px;
+}
+ b{
+        color: wheat;
+        font-size: 25px;
+        margin-top: -10px;
+        padding: 10px;
+    }
+
+@media (max-width: 768px){
+   #record h1{
+        padding-top: 45%;
+        font-size: 25px;
+    }
+
+    #record h4{
+        font-size: 10px;
+    }
+ 
+    .record-btn {
+        display: block;
+        padding: 10px;
+        width: 100px;
+        font-size: 15px;
+        color: white;
+        background-color: #000;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    b{
+        color: wheat;
+        font-size: 10px;
+        margin-top: -10px;
+        padding: 10px;
+    }
+    .record-btn:hover {
+        display: block;
+        padding: 10px;
+        width: 100px;
+        font-size: 15px;
+        color: black;
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+}
