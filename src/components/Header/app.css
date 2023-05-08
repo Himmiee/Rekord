@@ -144,12 +144,41 @@ h1 {
 
 
 @media (max-width: 768px) {
+  nav{
+    display: block;
+    
+  }
   nav a {
     font-size: 16px;
     font-weight: 500;
+
+  }
+  nav ul {
+    list-style: none;
+    margin: 10px auto;
+    cursor: pointer;
+    display: block;
+    justify-content: space-between;
+   
+  }
+  nav span {
+    color: black;
+  }
+  nav ul li {
+    padding: 15px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin: 15px;
+    color: white;
+    margin: auto;
+    /* font-weight: 400; */
+  
   }
   .txt{
-    font-size: 13px;
+    font-size: 15px;
+    padding: 4px;
+
   }
   h1 {
     display: flex;
@@ -216,10 +245,7 @@ h1 {
     width: 100%;
 	  margin: auto;
 		display: flex;
-		flex-direction: row;
 		align-items: center;
-		/* justify-content: center; */
-		/* gap: 1.5rem;  */
 		background-color: brown;
 		transition: 1s;
 		transform: translateY(-100vh);
@@ -227,5 +253,9 @@ h1 {
   .tag{
     display: block;
   }
+  #logo{
+    display: none;
+  }
+
 
 }
